@@ -1,0 +1,20 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+}
+
+.card {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hidden {
+  background-color: gray;
+  animation-duration: 1s;
+}
+
+/*# sourceMappingURL=App.css.map */
