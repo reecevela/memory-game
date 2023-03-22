@@ -12,6 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "sass": "sass --watch ./src/styles/App.scss ./src/styles/App.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.59.3"
   }
 }
